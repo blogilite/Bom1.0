@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+html, body {
+	height: 100%;
+	align-text: center;
+	background-color: #f9f4f4;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+a {
+	text-decoration: none;
+	color: Black;
+}
+
+.tableDiv {
+	height: 300px;
+	overflow: auto;
+}
+
+#table_Div {
+	height: 300px;
+	overflow: auto;
+}
+
+div#homeHeader, div#create_bom_header, div#showHead, div#create_sub_bom_header
+	{
+	height: 10%;
+	border-radius: 20px;
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #065d02;
+}
+
+div#homeBody, div#showBody {
+	height: 60%;
+	width: 100%;
+	margin-top: 50px;
+	text-align: center;
+	cursor: pointer;
+	display: block;
+	border-radius: 30%;
+}
+
+html>body>div>div>form>fieldset>div {
+	margin: 10px;
+}
+
+.create_bom_body, div#tableStructure {
+	margin: 5px;
+}
+
+tr, td, th, table {
+	border: black 2px solid;
+	border-radius: 5px;
+	padding: 5px;
+	overflow-x: auto;
+	min-width: max-content;
+}
+
+#formcreate {
+	background-color: aliceblue;
+}
