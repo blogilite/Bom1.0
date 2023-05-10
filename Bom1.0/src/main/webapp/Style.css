@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+body {
+	background-color: #fff3fa;
+}
+
+input: :-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+	display: none;
+}
+
+label {
+	display: inline-block;
+	width: 200px;
+}
+
+.sam {
+	height: 300px;
+	overflow: auto;
+	min-height: max-content;
+	min-width: max-content;
+}
+
+#header {
+	height: 10%;
+	text-align: center;
+	font-size: 80px;
+	width: 100%;
+	border-radius: 20px;
+	background-color: #af9dd1;
+	width: 100%;
+}
+
+.fr {
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: #635564;
+}
+
+button {
+	background: #beacbf63;
+	border-radius: 5px;
+}
+
+#buttons {
+	width: 90%;
+	margin-left: 5%;
+	padding: 20px;
+}
+
+.prodData {
+	margin-top: 10px;
+}
+
+fieldset {
+	margin-left: 5%;
+	width: 90%;
+	border-radius: 5px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+legend {
+	text-align: center;
+	padding: 5px;
+}
+
+tr, td, th {
+	border: 2px dotted black;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#table {
+	display: contents;
+	text-align: center;
+}
+
+.sam {
+	height: 300px;
+	overflow: auto;
+	min-width: max-content;
+	min-height: max-content;
+}
+
+table {
+	border: 1px solid black;
+	border-radius: 3px;
+	padding: 3px;
+}
+
+button:hover {
+	background: #beacbfff;
+}
